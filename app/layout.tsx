@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Hoàng Trường & Thuỳ Trang",
     images: [
       {
-        url: "https://thiepmoi-hoplong.vercel.app/SVG/preview.png", // Ảnh preview khi chia sẻ link
+        url: "https://thiepmoitruongtrang.dhatech.pro/img/anh.jpg", // Ảnh preview khi chia sẻ link
         width: 1200,
         height: 630,
         alt: "Thiệp mời lễ cưới Hoàng Trường x Thuỳ Trang",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "THIỆP MỜI HOÀNG TRƯỜNG x THUỲ TRANG",
     description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
-    images: ["https://thiepmoi-hoplong.vercel.app/SVG/preview.png"], // Ảnh preview trên Twitter
+    images: ["https://thiepmoitruongtrang.dhatech.pro/img/anh.jpg"], // Ảnh preview trên Twitter
   },
 };
 
@@ -51,9 +51,9 @@ export default function RootLayout({
         {/* Meta tags bổ sung để hỗ trợ Messenger và Zalo */}
         <meta property="og:title" content="THIỆP MỜI HOÀNG TRƯỜNG x THUỲ TRANG" />
         <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta property="og:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.png" />
+        <meta property="og:image" content="https://thiepmoitruongtrang.dhatech.pro/img/anh.jpg" />
         <meta property="og:url" content="https://thiepmoi-hoplong.vercel.app/" />
-        <meta property="og:image:secure_url" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.png" />
+        <meta property="og:image:secure_url" content="https://thiepmoitruongtrang.dhatech.pro/img/anh.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="Hoàng Trường x Thuỳ Trang" />
@@ -64,7 +64,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="THIỆP MỜI Hoàng Trường x Thuỳ Trang" />
         <meta name="twitter:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
-        <meta name="twitter:image" content="https://thiepmoi-hoplong.vercel.app/SVG/preview.png" /> {/* Fixed image URL */}
+        <meta name="twitter:image" content="https://thiepmoitruongtrang.dhatech.pro/img/anh.jpg" /> {/* Fixed image URL */}
 
         <meta property="fb:app_id" content="997664185513686" />
 
