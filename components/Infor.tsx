@@ -50,8 +50,8 @@ const Infor = () => {
             viewport={{ once: true, amount: 0.5 }}
             className='flex flex-col items-center gap-2'>
             <h3 className="text-xs sm:text-sm md:text-xl font-bold Fz-Strange-Dreams">Nhà gái</h3>
-            <p className="text-sm sm:text-base md:text-xl">Ông Vi Văn Biện</p>
-            <p className="text-sm sm:text-base md:text-xl">Bà Vi Thị Chung</p>
+            <p className="text-sm sm:text-base md:text-xl">Ông Vì Văn Biện</p>
+            <p className="text-sm sm:text-base md:text-xl">Bà Vì Thị Chung</p>
           </motion.span>
           <motion.span 
             variants={slideInFromRight(1)}
