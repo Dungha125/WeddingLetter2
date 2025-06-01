@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { slideInFromBottom, slideInFromBottomtime, slideInFromLeft, slideInFromRight } from '@/util/motion';
+import { slideInFromBottom, slideInFromBottomtime, slideInFromLeft} from '@/util/motion';
 
 // Define the form data type
 type FormData = {

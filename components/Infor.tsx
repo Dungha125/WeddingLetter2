@@ -21,7 +21,7 @@ const Infor = () => {
         viewport={{ once: true, amount: 0.5 }}
         className='w-full px-6 text-center merienda text-red-600 text-xs sm:text-sm md:text-lg lg:text-xl'>
         <h2>“A wedding is not just a celebration of love;
-        <br />It's the beginning of a beautiful journey where two souls promise to walk together through life's every season”</h2>
+        <br />It&apos;s the beginning of a beautiful journey where two souls promise to walk together through life&apos;s every season”</h2>
       </motion.div>
 
       {/* Nhà gái */}
