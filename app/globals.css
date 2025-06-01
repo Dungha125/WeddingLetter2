@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Peristiwa';
+  src: url('/font/SVN-Peristiwa.otf') format('truetype'); /* Đường dẫn đến file font */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fz-Strange-Dreams';
+  src: url('/font/Fz-Strange-Dreams.ttf') format('truetype'); /* Đường dẫn đến file font */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.merienda {
+  font-family: "Merienda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Peristiwa {
+  font-family: 'Peristiwa', sans-serif;
+}
+
+.Fz-Strange-Dreams {
+  font-family: 'Fz-Strange-Dreams', sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Chia thành 3 cột */
+  grid-template-rows: auto;
+  gap: 8px;
+}
+
+.album-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.album-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+  border-radius: 8px;
+}
