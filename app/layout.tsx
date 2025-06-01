@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "THIỆP MỜI HOÀNG TRƯỜNG x THUỲ TRANG",
     description: "Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!",
-    url: "https://thiepmoi-truongtrang.vercel.app", // Đổi thành URL thực tế của bạn
+    url: "https://thiepmoitruongtrang.dhatech.pro", // Đổi thành URL thực tế của bạn
     siteName: "Hoàng Trường & Thuỳ Trang",
     images: [
       {
@@ -52,7 +52,7 @@ export default function RootLayout({
         <meta property="og:title" content="THIỆP MỜI HOÀNG TRƯỜNG x THUỲ TRANG" />
         <meta property="og:description" content="Hãy tham gia cùng chúng tôi trong sự kiện đặc biệt này!" />
         <meta property="og:image" content="https://thiepmoitruongtrang.dhatech.pro/img/anh.jpg" />
-        <meta property="og:url" content="https://thiepmoi-hoplong.vercel.app/" />
+        <meta property="og:url" content="https://thiepmoitruongtrang.dhatech.pro/" />
         <meta property="og:image:secure_url" content="https://thiepmoitruongtrang.dhatech.pro/img/anh.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
